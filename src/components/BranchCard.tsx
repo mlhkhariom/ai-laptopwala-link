@@ -18,7 +18,7 @@ export const BranchCard = ({ name, address, mapUrl }: BranchCardProps) => {
           <h3 className="text-sm font-semibold text-foreground">{name}</h3>
           <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{address}</p>
           <a
-            href={mapUrl}
+            href={href}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
