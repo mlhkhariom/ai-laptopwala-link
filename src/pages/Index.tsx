@@ -1,4 +1,4 @@
-import { ClipboardList, Instagram, Youtube, Facebook, Phone, MessageCircle, ShieldCheck, BadgeCheck, Gift, Repeat } from "lucide-react";
+import { ClipboardList, Instagram, Youtube, Facebook, Phone, MessageCircle, Mail, ShieldCheck, BadgeCheck, Gift, Repeat } from "lucide-react";
 import logo from "@/assets/logo.jpeg";
 import { LinkCard } from "@/components/LinkCard";
 import { BranchCard } from "@/components/BranchCard";
@@ -80,14 +80,23 @@ const Index = () => {
             />
           </div>
           <div className="animate-fade-up" style={{ animationDelay: "280ms" }}>
-            <LinkCard href="tel:+910000000000" icon={Phone} label="Call Us" sublabel="Talk to our team" external={false} />
+            <LinkCard href="tel:+919893496163" icon={Phone} label="Call Us" sublabel="+91 98934 96163" external={false} />
           </div>
           <div className="animate-fade-up" style={{ animationDelay: "320ms" }}>
             <LinkCard
-              href="https://wa.me/910000000000"
+              href="https://wa.me/919893496163"
               icon={MessageCircle}
               label="WhatsApp"
               sublabel="Chat with us instantly"
+            />
+          </div>
+          <div className="animate-fade-up" style={{ animationDelay: "360ms" }}>
+            <LinkCard
+              href="mailto:contact@ailaptopwala.com"
+              icon={Mail}
+              label="Email Us"
+              sublabel="contact@ailaptopwala.com"
+              external={false}
             />
           </div>
         </section>
@@ -101,10 +110,12 @@ const Index = () => {
             <BranchCard
               name="Branch 1 — Silver Mall"
               address="LB-21, Block-B, Silver Mall, 8-A, RNT Marg, South Tukoganj, Indore, MP 452001"
+              mapUrl="https://maps.app.goo.gl/Z4e1Z91HVKwjm5xp9"
             />
             <BranchCard
               name="Branch 2 — Sai Residency"
               address="21, G3, Sai Residency, Ashish Nagar, Near Bangali Chouraha, Indore, MP 452016"
+              mapUrl="https://maps.app.goo.gl/drVLkuS9tGjEmwUF7"
             />
           </div>
         </section>
